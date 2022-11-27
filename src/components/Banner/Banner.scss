@@ -1,0 +1,66 @@
+.banner {
+    &__content {
+        padding-top: 80px;
+        margin: 0 auto;
+        width: 95%;
+        max-width: 1400px;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 25px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 800;
+        max-width: 600px;
+    }
+
+    &__button {
+        background: orange;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        height: max-content;
+        width: max-content;
+        font-size: 18px;
+        padding: 10px 20px;
+        position: relative;
+        transition: 0.5s;
+        border-radius: 10px;
+        cursor: pointer;
+        
+        
+        &::after,
+        &::before {
+            position: absolute;
+            content: '';
+        }
+
+        &::after {
+            top: 3px;
+            right: -3px;
+            bottom: -3px;
+            height: 100%;
+            width: 3px;
+        }
+
+        &::before {
+            bottom: -3px;
+            height: 3px;
+            left: 3px;
+            width: 100%;
+        }
+
+        &:hover {
+            color: #eceff1;
+            scale: 105%;
+            transition: 0.5s;
+        }
+        &:disabled{
+            opacity: 20%;
+            background: #ccc;
+            color: #000;
+        }
+    }
+}

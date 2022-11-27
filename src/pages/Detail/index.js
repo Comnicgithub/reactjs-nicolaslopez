@@ -1,0 +1,3 @@
+export {Detail} from './Detail'
+
+
