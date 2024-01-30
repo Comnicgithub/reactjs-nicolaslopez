@@ -21,7 +21,7 @@ export const Category = () => {
 
   return (
     <>
-    <img src="http://coder.comnic.com.ar/img/top-index4.jpg" alt="destacado gitano"/>
+    <img src="../assets/top-index2.jpg" alt="destacado gitano"/>
       <div className="content">
         <h2>
           Lo mejor en la categoría <span>{categoryId}</span>{" "}

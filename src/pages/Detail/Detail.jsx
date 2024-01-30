@@ -48,28 +48,28 @@ export const Detail = () => {
       <h1>Productos destacados</h1>
       <div class="row">
                 <div class="col-md-6 col-lg-3 destacados">
-                    <img src="http://coder.comnic.com.ar//img/destacado1.jpg" alt="Producto" class="productosdestacadosimg"/>
+                    <img src="../assets/destacado1.jpg" alt="Producto" class="productosdestacadosimg"/>
                     <h3 className="destacados__h3">Anteojos Ray-Ban Wayfarer 4195Mi</h3>
                     <h2 className="destacados__precio">
                         <p>$2.999</p>
                     </h2>
                 </div>
                 <div class="col-md-6 col-lg-3 destacados">
-                    <img src="http://coder.comnic.com.ar//img/destacado2.jpg" alt="Producto" class="productosdestacadosimg"/>
+                    <img src="../assets/destacado2.jpg" alt="Producto" class="productosdestacadosimg"/>
                     <h3 className="destacados__h3">Anteojos Ray-Ban Wayfarer 4195Mi</h3>
                     <h2 className="destacados__precio">
                         <p>$2.999</p>
                     </h2>
                 </div>
                 <div class="col-md-6 col-lg-3 destacados">
-                    <img src="http://coder.comnic.com.ar//img/destacado3.jpg" alt="Producto" class="productosdestacadosimg"/>
+                    <img src="../assets/destacado3.jpg" alt="Producto" class="productosdestacadosimg"/>
                     <h3 className="destacados__h3">Anteojos Ray-Ban Wayfarer 4195Mi</h3>
                     <h2 className="destacados__precio">
                         <p>$2.999</p>
                     </h2>
                 </div>
                 <div class="col-md-6 col-lg-3 destacados">
-                    <img src="http://coder.comnic.com.ar//img/destacado4.jpg" alt="Producto" class="productosdestacadosimg"/>
+                    <img src="../assets/destacado4.jpg" alt="Producto" class="productosdestacadosimg"/>
                     <h3 className="destacados__h3">Anteojos Ray-Ban Wayfarer 4195Mi</h3>
                     <h2 className="destacados__precio">
                         <p>$2.999</p>

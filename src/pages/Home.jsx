@@ -24,7 +24,7 @@ export const Home = () => {
   return (
     
     <>
-    <img src="http://coder.comnic.com.ar/img/top-index.jpg" alt="destacado gitano"/>
+    <img src="./assets/top-index.jpg" alt="destacado gitano"/>
       <Banner
         promocion="PAGA HASTA 12 CUOTAS SIN INTERÉS"
         boton="QUIERO SABER MÁS"

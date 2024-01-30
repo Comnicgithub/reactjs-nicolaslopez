@@ -14,7 +14,7 @@ export const Navbar = () => {
       <Link to="/">
         <img
           src={
-            "http://coder.comnic.com.ar/img/logo-negro.svg"
+            "../assets/logo-negro.png"
           }
           className="navbar__logo"
           alt="logo"
